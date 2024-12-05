@@ -1,0 +1,53 @@
+#pane{
+    /*-fx-background-image: url("back.png");*/
+    /*-fx-background-repeat: stretch;*/
+    /*-fx-background-size: 900 506;*/
+    /*-fx-background-position: center center;*/
+    /*-fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);*/
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #dc143c, #661a33);
+    -fx-font: 50px Tahoma;
+}
+#fail{
+    -fx-font: 10px Tahoma;
+    -fx-graphic: url("action_exit_close_remove_13915.png");
+    -fx-alignment: center;
+}
+
+#ok{
+    -fx-font: 10px Tahoma;
+    -fx-text-fill: black;
+    -fx-graphic:  url("accept_ok_13970.png");
+    -fx-alignment: center;
+}
+
+#timer{
+    -fx-font: 20px Tahoma;
+    -fx-text-fill: black;
+    -fx-alignment: center;
+}
+
+#mb{
+    /*-fx-background-image:  url("play-music_icon-icons.com_71385.png");*/
+    -fx-background-color: rgba(195, 64, 64, 0.75);
+    -fx-border-color: #323232;
+    -fx-border-width: 3px;
+    -fx-border-radius: 1px;
+    /*-fx-content-display: bottom;*/
+    -fx-font: 20px Tahoma;
+    /*-fx-max-width: 40px;*/
+    /*-fx-max-height: 50px;*/
+    /*-fx-background-size: 40px 40px;*/
+    -fx-text-fill: #323232;
+    -fx-alignment: center;
+
+}
+
+#start{
+    -fx-graphic:  url("play-music_icon-icons.com_71385.png");
+    -fx-alignment: center;
+}
+
+#stop{
+    -fx-graphic:  url("music-pause-button_icon-icons.com_71419.png");
+    -fx-alignment: center;
+}
